@@ -1,0 +1,41 @@
+genes with outliers
+
+EOG090X002Z.aa.fas:
+min   	max   	median	Q1    	Q3    
+25.494	64.814	43.908	36.433	46.369
+
+out!  	125.85	2.8662	 = EOG090X002Z|BMORI|Metaphatus_ochraceus_non-1kite|TR64711-1
+out!  	126.68	2.8850	 = EOG090X002Z|PHUMA|Echinophthirius_horridus|C76423_a_7_0_l_581-183
+out!  	64.184	1.4617	 = EOG090X002Z|ZNEVA|Brachyptera_vera|C194522_a_4_0_l_429-140PPs11183_L_55199_0_a_17_0_l_1412-332
+out!  	62.663	1.4271	 = EOG090X002Z|RPROL|Mezira_granulata_non-1kite|s25593_L_62672_0_3_6_LINEAR-288
+out!  	72.571	1.6527	 = EOG090X002Z|BMORI|Megalomus_tortricoides|C125680_a_3_0_l_242-79PPC181715_a_3_0_l_767-255
+out!  	61.532	1.4013	 = EOG090X002Z|RPROL|Hoplitocoris_sp._AD-2014_non-1kite|s5495_L_8614_0_8_2_LINEAR-282
+out!  	114.93	2.6175	 = EOG090X002Z|AGLAB|Neomida_bicornis|C69250_a_3_0_l_451-134
+out!  	118.46	2.6980	 = EOG090X002Z|ZNEVA|Epeorus_assimilis|C162754_a_3_0_l_236-78
+out!  	68.608	1.5625	 = EOG090X002Z|ZNEVA|Cryptoperla_japonica|C104804_a_12_0_l_992-328
+out!  	62.763	1.4294	 = EOG090X002Z|DPLEX|Thyridopteryx_ephemeraeformis_non-1kite|comp635733_c0_seq1len=252path=[1:0-251]-81PPcomp268251_c0_seq1len=640path=[618:0-639]-212PP
+out!  	96.592	2.1998	 = EOG090X002Z|BMORI|Maniola_jurtina_non-1kite|SRR3721684_98382-73PPSRR3721684_22866-192PPSRR3721684_42508-177
+out!  	69.465	1.5820	 = EOG090X002Z|GAUST|Derocephalus_angusticollis|C47431_a_3_0_l_486-161
+out!  	88.027	2.0047	 = EOG090X002Z|PHUMA|Anallacta_methanoides|s3159_L_6536_0_a_3_0_l_271-87
+out!  	61.400	1.3983	 = EOG090X002Z|AGLAB|Forficula_auricularia|C126725_a_3_0_l_258-71
+out!  	1000  	22.774	 = EOG090X002Z|BMORI|Costora_delora|s4700_L_9256_0_a_6_4_l_1026-94
+out!  	66.327	1.5105	 = EOG090X002Z|ZNEVA|Tisbe_furcata|s323_L_297_1_a_16_6_l_930-265
+out!  	63.268	1.4408	 = EOG090X002Z|ZNEVA|Agapetus_tomus|C95816_a_3_0_l_248-82PPC136463_a_3_0_l_763-166
+out!  	74.833	1.7042	 = EOG090X002Z|APISU|Hallomenus_binotatus|C33819_a_7_0_l_310-97PPC51265_a_5_0_l_946-192
+out!  	69.304	1.5783	 = EOG090X002Z|RPROL|Aradus_betulae|C201926_a_8_0_l_387-122
+out!  	117.10	2.6670	 = EOG090X002Z|AGLAB|Pentodon_sp|C48838_a_4_0_l_293-97
+out!  	80.436	1.8319	 = EOG090X002Z|SMARI|Incisitermes_marginipennis|C248821_a_7_0_l_1525-123
+out!  	134.23	3.0571	 = EOG090X002Z|BMORI|Mythimna_separata_non-1kite|sl_filter_trashme_87647-93PPsl_filter_trashme_34782-137
+out!  	61.355	1.3973	 = EOG090X002Z|ZNEVA|Metriophasma_diocles|C220841_a_6_0_l_1166-330
+out!  	64.886	1.4777	 = EOG090X002Z|GAUST|Melanostoma_scalare|C65396_a_3_0_l_657-217
+out!  	67.494	1.5371	 = EOG090X002Z|ZNEVA|Amphipsocus_japonicus|C72555_a_3_0_l_419-139PPC59009_a_4_0_l_286-95PPs7643_L_21131_0_a_5_3_l_2107-514
+out!  	68.692	1.5644	 = EOG090X002Z|NVITR|Haematopota_pluvialis|C285244_a_4_0_l_563-109PPs22571_L_35485_0_a_35_0_l_1344-166
+out!  	72.112	1.6423	 = EOG090X002Z|GAUST|Ferdinandea_cuprea|C43070_a_4_0_l_584-147
+out!  	102.32	2.3303	 = EOG090X002Z|AGLAB|Acrotrichis_sp|C110189_a_4_0_l_317-105
+out!  	76.514	1.7425	 = EOG090X002Z|ZNEVA|Mordella_sp|C108007_a_5_0_l_1576-317
+out!  	91.247	2.0781	 = EOG090X002Z|ZNEVA|Poekilocerus_pictus|C243874_a_5_0_l_497-40PPs6193_L_17809_0_a_5_7_l_1406-234
+out!  	65.065	1.4818	 = EOG090X002Z|ZNEVA|Valenzuela_badiostigma|C50709_a_5_0_l_736-208
+out!  	91.277	2.0787	 = EOG090X002Z|CSPLE|Protonemura_ausonia|C193548_a_3_0_l_243-80
+out!  	1000  	22.774	 = EOG090X002Z|AGLAB|Camenta_innocua|C225533_a_3_0_l_268-17
+out!  	72.285	1.6462	 = EOG090X002Z|ZNEVA|Acanalonia_conica_non-1kite|C462347_3_0-207
+out!  	1000  	22.774	 = EOG090X002Z|CSPLE|Pedetontus_unimaculatus|C193384_a_6_0_l_737-8PPC204207_a_47_0_l_1089-5

@@ -1,0 +1,69 @@
+file: EOG090X002Z.aa.fas  	alignment length: 5321      
+Number of taxa in alignment:  	970       
+Transcriptomes:               	37        
+overlap length:               	5136      
+
+min   	max   	median	Q1    	Q3    
+22.675	64.814	42.451	35.687	45.437
+
+Transcriptome outlier dist: > 	60.0631824
+
+out?  	dist  	re.dis	taxon 
+out!  	91.247	2.1494	 = EOG090X002Z|ZNEVA|Poekilocerus_pictus|C243874_a_5_0_l_497-40PPs6193_L_17809_0_a_5_7_l_1406-234
+        32.938	0.7758	 = EOG090X002Z|HSALT|HSAL22360-PA
+out!  	68.692	1.6181	 = EOG090X002Z|NVITR|Haematopota_pluvialis|C285244_a_4_0_l_563-109PPs22571_L_35485_0_a_35_0_l_1344-166
+out!  	63.268	1.4903	 = EOG090X002Z|ZNEVA|Agapetus_tomus|C95816_a_3_0_l_248-82PPC136463_a_3_0_l_763-166
+out!  	66.327	1.5624	 = EOG090X002Z|ZNEVA|Tisbe_furcata|s323_L_297_1_a_16_6_l_930-265
+        34.386	0.8099	 = EOG090X002Z|PHUMA|PHUM420020-PA
+        26.837	0.6321	 = EOG090X002Z|CSPLE|size1141089-processed-gene-4.10-mRNA-1
+out!  	61.400	1.4463	 = EOG090X002Z|AGLAB|Forficula_auricularia|C126725_a_3_0_l_258-71
+out!  	91.277	2.1501	 = EOG090X002Z|CSPLE|Protonemura_ausonia|C193548_a_3_0_l_243-80
+        26.885	0.6333	 = EOG090X002Z|GAUST|GAUT043925-PA
+out!  	72.285	1.7027	 = EOG090X002Z|ZNEVA|Acanalonia_conica_non-1kite|C462347_3_0-207
+out!  	65.065	1.5326	 = EOG090X002Z|ZNEVA|Valenzuela_badiostigma|C50709_a_5_0_l_736-208
+        26.885	0.6333	 = EOG090X002Z|AAEGY|AAEL002800-PA
+        51.157	1.2050	 = EOG090X002Z|CAQUI|Acanthanura_dendyi_VieART|C94864_abu7_0_le778-101
+out!  	118.46	2.7906	 = EOG090X002Z|ZNEVA|Epeorus_assimilis|C162754_a_3_0_l_236-78
+out!  	126.68	2.9841	 = EOG090X002Z|PHUMA|Echinophthirius_horridus|C76423_a_7_0_l_581-183
+out!  	62.663	1.4760	 = EOG090X002Z|RPROL|Mezira_granulata_non-1kite|s25593_L_62672_0_3_6_LINEAR-288
+        2.6165	0.0616	 = EOG090X002Z|CSPLE|Paracercion_plagiosum|C62646_a_3_0_l_488-127
+out!  	67.494	1.5899	 = EOG090X002Z|ZNEVA|Amphipsocus_japonicus|C72555_a_3_0_l_419-139PPC59009_a_4_0_l_286-95PPs7643_L_21131_0_a_5_3_l_2107-514
+out!  	1000  	23.556	 = EOG090X002Z|CSPLE|Pedetontus_unimaculatus|C193384_a_6_0_l_737-8PPC204207_a_47_0_l_1089-5
+out!  	64.886	1.5284	 = EOG090X002Z|GAUST|Melanostoma_scalare|C65396_a_3_0_l_657-217
+out!  	80.436	1.8947	 = EOG090X002Z|SMARI|Incisitermes_marginipennis|C248821_a_7_0_l_1525-123
+out!  	64.184	1.5119	 = EOG090X002Z|ZNEVA|Brachyptera_vera|C194522_a_4_0_l_429-140PPs11183_L_55199_0_a_17_0_l_1412-332
+out!  	125.85	2.9646	 = EOG090X002Z|BMORI|Metaphatus_ochraceus_non-1kite|TR64711-1
+out!  	68.608	1.6161	 = EOG090X002Z|ZNEVA|Cryptoperla_japonica|C104804_a_12_0_l_992-328
+out!  	114.93	2.7073	 = EOG090X002Z|AGLAB|Neomida_bicornis|C69250_a_3_0_l_451-134
+out!  	134.23	3.1620	 = EOG090X002Z|BMORI|Mythimna_separata_non-1kite|sl_filter_trashme_87647-93PPsl_filter_trashme_34782-137
+out!  	72.112	1.6986	 = EOG090X002Z|GAUST|Ferdinandea_cuprea|C43070_a_4_0_l_584-147
+        49.122	1.1571	 = EOG090X002Z|DPULE|DAPPUDRAFT_55507
+        28.960	0.6821	 = EOG090X002Z|AGLAB|AGLA011807
+out!  	102.32	2.4102	 = EOG090X002Z|AGLAB|Acrotrichis_sp|C110189_a_4_0_l_317-105
+out!  	1000  	23.556	 = EOG090X002Z|AGLAB|Camenta_innocua|C225533_a_3_0_l_268-17
+out!  	72.571	1.7094	 = EOG090X002Z|BMORI|Megalomus_tortricoides|C125680_a_3_0_l_242-79PPC181715_a_3_0_l_767-255
+out!  	88.027	2.0735	 = EOG090X002Z|PHUMA|Anallacta_methanoides|s3159_L_6536_0_a_3_0_l_271-87
+out!  	96.592	2.2753	 = EOG090X002Z|BMORI|Maniola_jurtina_non-1kite|SRR3721684_98382-73PPSRR3721684_22866-192PPSRR3721684_42508-177
+        22.675	0.5341	 = EOG090X002Z|DPLEX|DPOGS214944-PA
+        26.837	0.6321	 = EOG090X002Z|ZNEVA|Znev_06014
+out!  	74.833	1.7627	 = EOG090X002Z|APISU|Hallomenus_binotatus|C33819_a_7_0_l_310-97PPC51265_a_5_0_l_946-192
+out!  	117.10	2.7585	 = EOG090X002Z|AGLAB|Pentodon_sp|C48838_a_4_0_l_293-97
+out!  	61.355	1.4452	 = EOG090X002Z|ZNEVA|Metriophasma_diocles|C220841_a_6_0_l_1166-330
+        32.675	0.7697	 = EOG090X002Z|NVITR|Nasvi2EG013048t1
+        22.675	0.5341	 = EOG090X002Z|BMORI|BGIBMGA004825-PA
+out!  	1000  	23.556	 = EOG090X002Z|BMORI|Costora_delora|s4700_L_9256_0_a_6_4_l_1026-94
+out!  	76.514	1.8023	 = EOG090X002Z|ZNEVA|Mordella_sp|C108007_a_5_0_l_1576-317
+        33.094	0.7795	 = EOG090X002Z|CAQUI|CAQU003066
+out!  	62.763	1.4784	 = EOG090X002Z|DPLEX|Thyridopteryx_ephemeraeformis_non-1kite|comp635733_c0_seq1len=252path=[1:0-251]-81PPcomp268251_c0_seq1len=640path=[618:0-639]-212PP
+        34.473	0.8120	 = EOG090X002Z|APISU|ACYPI53153-PA
+out!  	61.532	1.4494	 = EOG090X002Z|RPROL|Hoplitocoris_sp._AD-2014_non-1kite|s5495_L_8614_0_8_2_LINEAR-282
+        28.684	0.6756	 = EOG090X002Z|RPROL|RPRC007832-PA
+        31.843	0.7501	 = EOG090X002Z|SMARI|SMAR009313-PA
+out!  	69.304	1.6325	 = EOG090X002Z|RPROL|Aradus_betulae|C201926_a_8_0_l_387-122
+out!  	69.465	1.6363	 = EOG090X002Z|GAUST|Derocephalus_angusticollis|C47431_a_3_0_l_486-161
+
+outliers counted: 35
+
+
+1 files (genes) checked
+1 files with outliers
