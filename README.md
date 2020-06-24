@@ -16,9 +16,8 @@ Finding outlier sequences in amino acid multiple sequence alignments.
   - [Substitution matrix](#substitution-matrix)
   - [Output](#output)
 - [Test data](#test-data)
-- [List of changes](#list-of-changes)
+- [History/List of changes](#historylist-of-changes)
 - [Authors/Citation/Copyright](#authorscitationcopyright)
-- [History](#history)
 
 ## General description
 
@@ -255,9 +254,11 @@ chmod +x runMe.sh
 ./runMe.sh
 ```
 
-## List of changes
+## History/List of changes
 
-In the following, a list of major changes and resolved bugs compared to  `checker_complete.1.3.x.2.pl` is given.
+v 2.0.0b - First release.
+
+This is the first release of the reimplementation of the `checker_complete.1.3.x.2.pl` scripts by Bernhard Misof. Major changes and resolved bugs are:
 
 **Changes/Improvements:**
 
@@ -273,7 +274,7 @@ In the following, a list of major changes and resolved bugs compared to  `checke
 - Now works with newer PERL versions
 - Quartile calculation was inconsistent
 - Not all reference taxa were included in the output
-- Lowest distance between reference taxa was not calculated correct
+- Smallest distance between reference taxa was not calculated correct
 
 ## Authors/Citation/Copyright
 
@@ -284,7 +285,3 @@ Both scripts have been published in:
 > Misof B, Liu S, Meusemann K, Peters RS, Donath A, Mayer C, et al. Phylogenomics resolves the timing and pattern of insect evolution. Science. 2014;346:763–7.
 
 `checker_complete.2.pl` is published under the GPLv3.
-
-## History
-
-v 2.0.0b - First release.
