@@ -80,7 +80,7 @@ my @opt_s;
 my @opt_fl;
 my $opt_o1  = 'outlier_1.txt';
 my $opt_o2  = 'outlier_2.txt';
-my $VERSION = 'Version 2.0.0b';
+my $VERSION = 'Version 2.0.1';
 
 usage()
   unless GetOptions(
@@ -219,11 +219,6 @@ print {*STDERR} '[INFO] Starting. ', $start_time, "\n";
 ### MAIN ###
 
 open my $log, '>', $opt_l;
-open my $outlier1, '>', $opt_o1;
-open my $outlier2, '>', $opt_o2;
-
-print {$outlier1} 'genes with outliers', "\n";
-print {$outlier2} 'genes with outliers', "\n";
 
 my $file_counter  = 0;
 my $genes_outlier = 0;
@@ -410,12 +405,18 @@ if ($opt_k) {
                 $ref_FASTA, $ref_scoring );
         }
 
+        open my $outlier1, '>', $opt_o1;
+        open my $outlier2, '>', $opt_o2;
+
         my ( $flag_outlier, $count_outlier );
         ( $flag_outlier, $count_outlier ) = &print1KiteResults(
             $outlier_cutoff, $dist_min, $dist_max, $median_dissi,
             $Q1,             $Q3,       $file,     $log,
             $outlier1,       $outlier2, %BLOSUM_dist_of
         );
+
+        close $outlier1;
+        close $outlier2;
 
         $genes_outlier++ if $flag_outlier == 1;
         $logtext = sprintf "\noutliers counted: %i\n\n", $count_outlier;
@@ -498,11 +499,17 @@ else {
         # nothing will be stored for this taxon, also no key
         @query_local = &localQueryList( $ref_FASTA, \@reference_taxa );
 
-# A custom subject list, infered from the alignment, based on the reference file(s).
+        # A custom subject list, infered from the alignment, based on the reference file(s).
         if ( !@opt_s ) {
+            print {*STDERR} "[INFO] Trying to determine subject sequences.\n";
             %subject_local =
               &localSubjectList( $ref_FASTA, $ref_al_length, $opt_m,
                 $ref_scoring, \@query_local );
+
+            my $hashsize = keys %subject_local;
+            if ($hashsize == 0) {
+                die "[ERROR] All sequences considered to be reference sequences. Please provide subject file.\n"
+            }
 
             for my $subject ( keys %subject_local ) {
                 push @subjects, $subject;
@@ -636,12 +643,17 @@ else {
                 $ref_FASTA, $ref_scoring );
         }
 
+        open my $outlier1, '>', $opt_o1;
+        open my $outlier2, '>', $opt_o2;
+
         my ( $flag_outlier, $count_outlier );
         ( $flag_outlier, $count_outlier ) = &printResults(
             $outlier_cutoff, $dist_min, $dist_max, $median_dissi,
             $Q1,             $Q3,       $file,     $log,
             $outlier1,       $outlier2, %BLOSUM_dist_of
         );
+        close $outlier1;
+        close $outlier2;
 
         $genes_outlier++ if $flag_outlier == 1;
         $logtext = sprintf "\noutliers counted: %i\n\n", $count_outlier;
@@ -651,11 +663,17 @@ else {
     }
 }
 
+open my $outlier1, '>>', $opt_o1;
+print {$outlier1} 'genes with outliers', "\n";
+close $outlier1;
+
+open my $outlier2, '>>', $opt_o2;
+print {$outlier2} 'genes with outliers', "\n";
+close $outlier2;
+
 print {$log}
   "\n$file_counter files (genes) checked\n$genes_outlier files with outliers\n";
 close $log;
-close $outlier1;
-close $outlier2;
 
 print <<STAT;
 
@@ -842,7 +860,7 @@ sub localSubjectList {
             $subject_taxa{$taxon}++;
         }
         else {
-            print {*STDERR} "[WARN] Subject taxon $taxon not present in Alignment.\n";
+            print {*STDERR} "[WARN] Subject taxon $taxon not present.\n";
         }
     }
 

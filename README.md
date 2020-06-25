@@ -256,11 +256,22 @@ chmod +x runMe.sh
 
 ## History/List of changes
 
-v 2.0.0b - First release.
+**v 2.0.1**
+
+_June 25, 2020_
+
+Changes/Improvements:
+
+- If all sequences are reference sequences and no list of subject sequences was given, automatic identification of subject sequenced is not possible. A list of subjects is now required in these cases.
+- Minor code cleanup.
+
+**v 2.0.0b - First release** 
+
+_May 27, 2020_
 
 This is the first release of the reimplementation of the `checker_complete.1.3.x.2.pl` scripts by Bernhard Misof. Major changes and resolved bugs are:
 
-**Changes/Improvements:**
+Changes/Improvements:
 
 - Arbitrary sets for reference taxa and taxa to test can now be provided by the user
 - BLOSUM80 can now be used for distance calculation
@@ -269,7 +280,7 @@ This is the first release of the reimplementation of the `checker_complete.1.3.x
 - Output files of `checker_complete.1.3.1.2.pl` and `checker_complete.1.3.2.2.pl` are now created simultaneously
 - Output files are not overwritten
 
-**Bugs fixed:**
+Bugs fixed:
 
 - Now works with newer PERL versions
 - Quartile calculation was inconsistent
