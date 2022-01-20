@@ -265,7 +265,7 @@ Changes/Improvements:
 - If all sequences are reference sequences and no list of subject sequences was given, automatic identification of subject sequenced is not possible. A list of subjects is now required in these cases.
 - Minor code cleanup.
 
-**v 2.0.0b - First release** 
+**v 2.0.0b - First release**
 
 _May 27, 2020_
 
@@ -289,10 +289,17 @@ Bugs fixed:
 
 ## Authors/Citation/Copyright
 
-`checker_complete.2.pl` is a reimplementation of the two scripts `checker_complete.1.3.1.2.pl` and `checker_complete.1.3.2.2.pl` originally written by Bernhard Misof (zmb, ZFMK) and published under the GNU General Public License version 2 (or any later version).
+If you find the `checker_complete.2.pl` script useful for you work, please consider citing:
 
-Both scripts have been published in:
-
-> Misof B, Liu S, Meusemann K, Peters RS, Donath A, Mayer C, et al. Phylogenomics resolves the timing and pattern of insect evolution. Science. 2014;346:763–7.
+> Karmeinski D, Meusemann K, Goodheart JA, Schroedl M, Martynov A, Korshunova T, Wägele H, Donath A. 2021. Transcriptomics provides a robust framework for the relationships of the major clades of cladobranch sea slugs (Mollusca, Gastropoda, Heterobranchia), but fails to resolve the position of the enigmatic genus Embletonia. <i>BMC Ecology and Evolution</i> 21:226. https://doi.org/10.1186/s12862-021-01944-0
 
 `checker_complete.2.pl` is published under the GPLv3.
+
+`checker_complete.2.pl` is a reimplementation of the two scripts `checker_complete.1.3.1.2.pl` and `checker_complete.1.3.2.2.pl` originally written by Bernhard Misof (zmb, ZFMK) and published under the GNU General Public License version 2 (or any later version).
+
+Both scripts were published in:
+
+> Misof B, Liu S, Meusemann K, Peters RS, Donath A, Mayer C, Frandsen PB, Ware J, Flouri T, Beutel RG, et al. 2014. Phylogenomics resolves the timing and pattern of insect evolution. <i>Science</i> 346:763-767. https://doi.org/10.1126/science.1257570
+
+
+
